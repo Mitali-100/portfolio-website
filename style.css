@@ -1,0 +1,255 @@
+
+body{
+    background-color: #f5f5f5;
+}
+
+/************************************** navbar start ************************************************/
+
+
+.navbar{
+    background-color: rgba(24, 23, 24, 0);
+    height:80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar.active{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 5px 5px blue;
+}
+.navbar-brand{
+    color: white;
+    margin-left: 60px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+ul{
+    margin-left: 600px;
+}
+li{
+    margin-left: 30px;
+}
+
+.btn:hover{
+    background-color: rgb(212, 25, 190);
+
+}
+.logo-text{
+    color:blue;
+}
+/*************************************** navbar end ************************************************/
+
+/********************************************* Banner start ******************************************/
+.banner{
+    /* height:650px; */
+    background: linear-gradient(90deg,rgba(14, 14, 14, 0.838),rgba(235, 5, 5, 0.144)),url(images/desktop-wallpaper-web-development.jpg);
+    /* border: 1px solid black; */
+    background-size: 100% 100%;
+    
+    
+    
+}
+.banner-content{
+    /* border: 1px solid black; */
+    height: 650px;
+    color: white;
+    float: left;
+/* background-image: url(images/pic4-removebg.png); */
+/* background-position: right top; */
+/* background-repeat: no-repeat; */
+/* background-size: 100% 100% ; */
+}
+.banner-text{
+    color: white;
+    /* border: 1px solid white; */
+    /* text-align: center; */
+    margin-top: 150px;
+    margin-left: 20px;
+    /* position: relative;
+    top: 200px;
+    left:70px; */
+    /* right: 200px; */
+    /* font-size: 80px; */
+}
+.banner-text h1{
+    font-size: 70px;
+    /* padding-left: 20px; */
+}
+.banner-img{
+    /* border: 1px solid white; */
+    height: 600px;
+     background-image: url(images/pic4-removebg.png); 
+     background-repeat: no-repeat;
+     margin-top:100px;
+    background-size: 100% 100%; 
+    float: right;
+    
+    
+}
+.button{
+    background-color: rgb(2, 2, 196);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: transparent;
+}
+/********************************************* Banner end *******************************************/
+
+/******************************************* about start *******************************************/
+.about{
+    height:600px;
+    /* border: 5px solid black; */
+    /* box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    background-color: white;
+    margin-top: 300px;
+}
+.about-intro{
+    text-align: center;
+    color: black;
+}
+.intro{
+    height:400px;
+}
+.profile-pic{
+    /* border:1px solid black; */
+    height: 400px;
+}
+.about-one{
+    /* border:1px solid black; */
+    height: 400px;
+}
+.about-two{
+    /* border:1px solid black; */
+    height:400px;
+}
+.profile-pic{
+    text-align: center;
+}
+.list-one{
+    height:200px;
+    /* border:1px solid black; */
+    float: left;
+}
+.list-two{
+    height:200px;
+    /* border:1px solid black; */
+    float: right;
+}
+.profile-img{
+    margin-top: 50px;
+    border: 5px solid black;
+}
+/********************************************** about end ******************************************/
+/******************************************* service start ******************************************/
+.service{
+    height:700px;
+    /* border:1px solid black; */
+    background-color: white;
+    margin-top: 300px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service-intro{
+    text-align: center;
+}
+.all-services{
+    /* border: 1px solid black; */
+    height:500px;
+}
+.service-box{
+    height:400px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.icon{
+       font-size: 70px;
+       padding: 30px;
+       padding-top: 50px;
+       padding-bottom: 50px;
+       
+}
+/********************************************** service end *****************************************/
+
+/******************************************** project start ******************************************/
+.project{
+    height:400px;
+    /* border:1px solid black; */
+    margin-top:300px ;
+    background-color: azure;
+}
+/******************************************* project end ********************************************/
+
+/**************************************** contact me start ********************************************/
+.contact-me{
+    height:800px;
+    /* border:1px solid black; */
+    margin-top: 100px;
+    background:linear-gradient(90deg,rgba(0, 0, 0, 0.76),rgba(22, 22, 23, 0.61)),url(images/background-img3.avif);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-attachment: fixed;
+    
+}
+.contact-me-box{
+    height:600px;
+    background-color: white;
+    margin-top: 100px;
+}
+.contact-form{
+    height:500px;
+    /* border:1px solid black; */
+}
+.contact-details{
+    height:500px;
+    /* border:1px solid black;  */
+}
+table{
+    width: 90%;
+    /* height: 100%; */
+    margin-left:20px ;
+    /* border: 1px solid black; */
+}
+tr{
+    height: 30px;
+    /* border: 1px solid black; */
+}
+
+input{
+    width: 98%;
+    height: 40px;
+    padding:10px;
+    margin: 10px;
+}
+li.icon1{
+    display: inline;
+    font-size: 40px;
+    /* padding-top: 100px; */
+}
+/****************************************** contact me end *******************************************/
+/***************************************** footer start **********************************************/
+.footer{
+    margin-top: 20px;
+    height:200px;
+    background-color: black;
+    color: white;
+
+    
+}
+.col p{
+    font-size: 19px;
+    font-weight: bold;
+}
+/***************************************** footer end ***************************************************/
